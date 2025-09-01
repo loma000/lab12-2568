@@ -12,11 +12,12 @@ const theme = createTheme({
       name: "chanadda",
       dark: "pink",
       light: "cyan",
-    }),  Dechatorn: virtualColor({
+    }),
+    Dechatorn: virtualColor({
       name: "Dechatorn",
-      dark: "violet",
-      light: "yellow",
-    })
+      dark: "yellow",
+      light: "violet",
+    }),
   },
 });
 
