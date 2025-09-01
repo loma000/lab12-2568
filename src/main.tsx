@@ -12,8 +12,8 @@ const theme = createTheme({
       name: "chanadda",
       dark: "pink",
       light: "cyan",
-    }),  Dechatorn: virtualColor({
-      name: "Dechatorn",
+    }),  Loma: virtualColor({
+      name: "Loma",
       dark: "violet",
       light: "yellow",
     })
