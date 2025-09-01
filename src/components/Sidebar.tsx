@@ -49,7 +49,7 @@ export default function Sidebar(sidebar: SidebarComponentProps) {
           <Avatar  size={40} src= "/loma.jpeg"   />
         </Indicator>
         <Text>
-          User:{sidebar.userName}:{sidebar.type}
+          User : {sidebar.userName} : {sidebar.type}
         </Text>
       </Group>
     </Stack>
