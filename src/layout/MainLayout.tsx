@@ -20,7 +20,7 @@ export default function MainLayout() {
       </AppShell.Header>
 
       <AppShell.Navbar>
-        <Sidebar userName="Dechatorn"  type="admin" />
+        <Sidebar userName="Dechatorn"  type="student" />
       </AppShell.Navbar>
 
       <AppShell.Footer>

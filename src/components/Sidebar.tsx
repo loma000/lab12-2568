@@ -56,7 +56,7 @@ export default function Sidebar(sidebar: SidebarComponentProps) {
             <Avatar src="/loma.jpeg" />
           </Indicator>
           <Text>
-            User : {sidebar.userName} : {sidebar.type}
+            User: {sidebar.userName} : {sidebar.type}
           </Text>
         </Group>
       </Box>
