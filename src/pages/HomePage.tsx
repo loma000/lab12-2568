@@ -130,7 +130,11 @@ export default function HomePage() {
                 <Group>
                   <Checkbox onClick={() => toggleDoneTask(task.id)} />
 
-                  <ActionIcon onClick={() => deleteTask(task.id)}>
+                  <ActionIcon
+                    variant="light"
+                    color="red"
+                    onClick={() => deleteTask(task.id)}
+                  >
                     <IconTrash />{" "}
                   </ActionIcon>
                 </Group>
