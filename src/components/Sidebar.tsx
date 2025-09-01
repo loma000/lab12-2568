@@ -46,7 +46,7 @@ export default function Sidebar(sidebar: SidebarComponentProps) {
 
       <Group justify="center" pb="xs"  >
         <Indicator color="red">
-          <Avatar  radius="xl" src= "src/assets/loma.jpeg"   />
+          <Avatar  radius="xl" src= "src/loma.jpeg"   />
         </Indicator>
         <Text>
           User : {sidebar.userName} : {sidebar.type}
