@@ -53,7 +53,7 @@ export default function Sidebar(sidebar: SidebarComponentProps) {
             color="red"
             withBorder
           >
-            <Avatar size={40} src="/loma.jpeg" />
+            <Avatar src="/loma.jpeg" />
           </Indicator>
           <Text>
             User : {sidebar.userName} : {sidebar.type}
