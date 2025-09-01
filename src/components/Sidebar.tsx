@@ -1,5 +1,5 @@
 import { NavLink as RouterNavLink } from "react-router-dom";
- 
+
 import {
   NavLink,
   Stack,
@@ -43,15 +43,23 @@ export default function Sidebar(sidebar: SidebarComponentProps) {
         </Text> */}
       </Box>
       {/* แสดงผู้ใช้งาน */}
-
-      <Group justify="center" pb="xs"  >
-        <Indicator  inline size={16} offset={7} position="bottom-end" color="red" withBorder>
-          <Avatar  size={40} src= "/loma.jpeg"   />
-        </Indicator>
-        <Text>
-          User : {sidebar.userName} : {sidebar.type}
-        </Text>
-      </Group>
+      <Box p={"sm"}>
+        <Group>
+          <Indicator
+            inline
+            size={16}
+            offset={7}
+            position="bottom-end"
+            color="red"
+            withBorder
+          >
+            <Avatar size={40} src="/loma.jpeg" />
+          </Indicator>
+          <Text>
+            User : {sidebar.userName} : {sidebar.type}
+          </Text>
+        </Group>
+      </Box>
     </Stack>
   );
 }
